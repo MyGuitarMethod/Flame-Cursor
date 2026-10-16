@@ -1,0 +1,83 @@
+FLAME CURSOR — QUICK GUIDE
+Windows 10 and Windows 11 · Version 1.2.2
+
+INSTALL
+1. Run FlameCursor-Setup.exe and choose Install.
+2. Cursor Settings opens. Click Apply & enable.
+   It takes a moment to prepare the animation; progress is shown.
+
+OPEN SETTINGS AGAIN
+Right-click an empty part of your desktop and choose Cursor Settings.
+On Windows 11, look under Show more options if it is not in the first menu.
+You can also search for Cursor Settings in the Start menu.
+
+MAKE IT YOURS
+Choose Size & pulse for the size and animation controls below:
+- Overall size changes the whole cursor.
+- Arrow size changes just the arrow; Flame size changes the fire and smoke.
+- Pulse arrow and Pulse flame are independent switches.
+- Each pulse has its own strength and speed.
+- With Pulse flame OFF, the flame keeps flowing at a steady size.
+- Dark preview / Light preview lets you check contrast.
+- The preview is enlarged for easier editing. Your real cursor is smaller.
+- Apply & enable saves the changes and uses them as your Windows pointer.
+- Reset defaults (right of How to use) restores ALL sizes, pulse settings,
+  colors, and the reactive-flame setting. It saves and applies immediately
+  when enabled. If disabled, it saves defaults and leaves the cursor disabled.
+
+FLAME PHYSICS
+The Flame physics checkbox in Size & pulse makes fire and smoke bend behind cursor
+movement and settle smoothly when you stop. The arrow tip stays exact.
+Flame sensitivity controls how strongly movement bends the flame (25-400%).
+Try 200-300% for a livelier response. It has no effect with physics off.
+Reset defaults returns sensitivity to 100%.
+With this option on, a small background helper updates one native cursor
+image containing BOTH arrow and flame. Windows moves them together at the
+exact click point; there is no separately following flame window.
+Text/resize/other special pointers stay unchanged. Disable stops the helper.
+Untick Flame physics and Apply to use the pre-rendered animation instead.
+
+COLORS
+1. Choose Colors beside Size & pulse.
+2. In the dropdown choose Arrow outline, Arrow fill, or Flame.
+3. Drag Hue to choose a color family, Brightness for light/dark, and
+   Saturation for muted/vivid color. All three parts remember their own values.
+4. Check the live preview, then click Apply & enable to save and use them.
+
+The flame automatically uses neighboring shades and a pale bright core.
+Smoke stays neutral gray. For a colored outline, raise Saturation from its
+white default; to brighten the dark fill, raise Brightness. You can also
+Tab to a color bar and use arrow keys, Home/End, or Shift+arrow for bigger steps.
+
+TURN IT OFF
+Click Disable. Your current Windows cursor
+scheme is restored. Enable it again whenever you like; your settings remain.
+
+WHAT TO EXPECT
+The pointer faces the normal northwest direction, with a vertical left edge.
+Its tip is the exact clicking point, even when the arrow pulses.
+Only the normal arrow changes. Text, resize and other special pointers stay
+as Windows or the current app normally displays them. Games and some apps
+use their own cursor and may ignore the Windows pointer.
+
+You can close Cursor Settings after applying. With Flame physics enabled,
+the small flame helper keeps running. With it off, Windows plays the whole
+animation directly and no flame helper stays running. Your enabled cursor
+and settings are restored automatically after signing in to Windows.
+Disable also switches off this automatic startup. Changing your
+Windows mouse theme may restore that theme's pointer; open this app and
+Apply again if needed. Very large combinations are limited to 256 pixels.
+
+REMOVE IT
+Close Cursor Settings. In Windows Settings > Apps, uninstall Flame Cursor.
+Or run Uninstall.exe in %LOCALAPPDATA%\FlameCursor.
+Removal restores the Windows pointer and removes the menu/startup entries.
+
+SHARE WITH FRIENDS
+Send FlameCursor-Setup.exe and this guide. No game files are required.
+The installer works per user without administrator rights. It requires
+.NET Framework 4.5 or newer, normally included with Windows 10/11.
+This personal build is not digitally signed; there is no publisher certificate.
+
+UPDATING
+Close Cursor Settings, then run the new installer. Your saved settings remain.
